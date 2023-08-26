@@ -13,12 +13,14 @@ const quote =[
   ];
   //load-window
 window.onload = init;
-function init() [
+function init() {
     generateQuote()
-]
-
+}
+//new quote button
 function generateQuote() {
-    document.getElementById("text").innerText = quote.text;
-    document.getElementById("author").innerText = quote.author;
+    let randomIndex = Math.floor(Math.random() * quote.length);
+    let randomQuoteData = quote[randomIndex]
+    document.getElementById("text").innerText = randomQuoteData.text;
+    document.getElementById("author").innerText = randomQuoteData.author;
 
 }

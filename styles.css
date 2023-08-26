@@ -14,7 +14,7 @@ body{
     border: 2px solid black;
 
 }
-#quote-text{
+#text{
     position: absolute;
     top: 20%;
     left: 50%;
@@ -23,7 +23,7 @@ body{
     max-width: 300px;
     background-color: blue;
 }
-#quote-author{
+#author{
     position: absolute;
     top: 50%;
     left: 50%;
