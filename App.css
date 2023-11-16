@@ -1,0 +1,18 @@
+#quote-box{
+  box-sizing: border-box;
+  border: 2px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #9EB8D9;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  color: linen;
+}
+@media screen and (min-width: 400px) {
+  body {
+    background-color: #7C93C3;
+  }
+}
